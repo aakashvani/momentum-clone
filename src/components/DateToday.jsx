@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { DateContainer } from "./DateStyles";
 
 export default function DateToday() {
-
   let today = new Date();
-  let date = today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear();
- 
+  let date =
+    today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear();
+
   return (
-    <div><p>{date}</p></div>
-  )
+    <DateContainer>
+      <p>{date}</p>
+    </DateContainer>
+  );
 }
