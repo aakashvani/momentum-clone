@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { QuoteContainer, Text } from "./QuoteStyles";
 
-const url = "https://goquotes-api.herokuapp.com/api/v1/random?count=1";
+const url = "https://api.quotable.io/random";
 
 const Quote = () => {
   const [data, setData] = useState(null);
@@ -19,16 +19,14 @@ const Quote = () => {
       });
   }, []);
 
-  // console.log(data)
+  console.log(data)
 
   if (!data) return null;
 
   return (
     <QuoteContainer>
-      <Text>Quote Text</Text>
-      <Text>Quote Author</Text>
-      {/* <Text>{data.quotes[0].text}</Text>
-            <Text>-{data.quotes[0].author}</Text> */}
+      <Text>{data.content}</Text>
+      <Text>-{data.author}</Text>
     </QuoteContainer>
   );
 };
