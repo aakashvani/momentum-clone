@@ -1,7 +1,8 @@
 
 # Momentum Clone
 
-In this Project i build Google Momentum Clone using Axios to talk to different APIs. Axios is a promised-based HTTP Client for node which makes talking with APIs clean and simple.
+Built a Google Momentum clone in 2 hours solo, seamlessly integrating OpenWeatherMap and Unsplash APIs for dynamic quotes and wallpapers. Leveraging ReactJS, Tailwind CSS, and Axios, I delivered an engaging user experience within a short timeframe, showcasing my efficiency, problem-solving skills, and ability to independently learn new technologies.
+
 
 You can check out real extension 
 [link](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
